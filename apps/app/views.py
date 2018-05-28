@@ -11,7 +11,7 @@ def home(request):
 
 def profesiones(request):
     return render(request, 'profesiones.html', {
-        'profesiones': models.Profesion.objects.all()
+        'profesiones': models.Profesion.objects.all().order_by('nombre')
     })
 
 

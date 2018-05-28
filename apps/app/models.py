@@ -10,6 +10,7 @@ from . import constants
 class Profesion(models.Model):
     nombre = models.CharField(max_length=100, unique=True)
     cover = models.URLField(default=constants.URL_COVER)
+    titulo = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
         verbose_name = 'Profesion'
