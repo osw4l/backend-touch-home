@@ -19,7 +19,7 @@ from .settings import base
 from django.contrib import admin
 from apps.utils import errors
 from .settings import local
-from apps.app.views import home, profesiones, ProfesionDetailView
+from apps.app.views import home, profesiones, ProfesionDetailView, create_records
 
 urlpatterns = [
 
@@ -36,6 +36,7 @@ urlpatterns = [
     url(r'^$', home, name='home'),
     url(r'^profesiones/', profesiones, name='profesiones'),
     url(r'^profesionales/(?P<pk>\d+)/', ProfesionDetailView.as_view(), name='profesionales'),
+    url(r'^new/', create_records)
 
 ] + static(base.MEDIA_URL, document_root=base.MEDIA_ROOT)
 
