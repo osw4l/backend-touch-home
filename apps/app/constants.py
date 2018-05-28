@@ -1,0 +1,1 @@
+URL_COVER = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8wNj9ljnY6xwtiTvafIBb852TCwWYVbymNiYchescQnc6kMEz'

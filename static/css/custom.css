@@ -1,0 +1,97 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.margin-bottom-10p {
+  margin-bottom: 5% !important;
+}
+
+.testimonial-card .card-up {
+  overflow: hidden;
+  height: 120px;
+  -webkit-border-top-left-radius: .25rem;
+  border-top-left-radius: .25rem;
+  -webkit-border-top-right-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.blue-gradient {
+  background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
+  background: -o-linear-gradient(50deg,#45cafc,#303f9f)!important;
+  background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+
+.info-color {
+  background-color: #33b5e5!important;
+}
+
+.indigo {
+  background-color: #3f51b5!important;
+}
+
+.peach-gradient {
+  background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+  background: -o-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+  background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+
+.purple-gradient {
+  background: -webkit-linear-gradient(50deg,#ff6ec4,#7873f5)!important;
+  background: -o-linear-gradient(50deg,#ff6ec4,#7873f5)!important;
+  background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+
+.aqua-gradient {
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+  background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+  background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+}
+
+.testimonial-card .card-body {
+  text-align: center;
+}
+
+
+.testimonial-card .avatar {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 120px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.text-white {
+  color: white;
+}
+
+.card-user {
+  font-size: 20px !important;
+}
+
+
+.image-profesion {
+  height: 155px !important;
+}
